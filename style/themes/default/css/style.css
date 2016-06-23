@@ -1,0 +1,149 @@
+/*
+* (c) StrongCMS
+* Сайт - strongcms.ru
+* Группа ВКонтакте - vk.com/strong_cms
+* Автор - Александр Каплин
+* Контакты - vk.com/koiie
+*/
+body {
+	max-width: 600px;
+	background-color: #efefef;
+	font-family: Arial, Tahoma;
+	font-style: normal;
+	font-size: 12px;
+	margin: auto;
+}
+
+.head{
+	background-color: #00B85F;
+	color: #79CDCD;
+}
+
+.nvgup { 
+	text-align: center; 
+	background: #f9f9f9;
+} 
+
+
+.nvgup a{ 
+	color: #56856E; 
+	display: table-cell; 
+	width: 1%; 
+	padding: 10px; 
+	margin: 0px 4px; 
+	border: 1px solid #dfdfdf; 
+	background: #f7f7f7;
+	text-decoration: none;
+}
+
+.error {
+	background-color: rgb(244, 167, 167);
+	color: rgb(82, 33, 33);
+	padding: 10px;
+	text-decoration: none;
+}
+
+.success {
+	background-color: rgb(168, 213, 163);
+	color: rgb(0, 0, 0);
+	padding: 10px;
+}
+
+.foot{
+	background: #00B85F;
+	color: #ddd;
+	padding: 5px;
+	text-decoration: none;
+}
+.foot a {
+	color: #777;
+}
+
+.main {
+	background-color: #FFFFFF;
+    padding: 10px;
+    border-bottom: 1px solid #cfcfcf;
+    border-top: 1px solid #dfdfdf;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.main a{
+	color: #1C494C;
+	text-decoration: none;
+}
+
+.main a:hover{
+	color: #9C9C9C;
+}
+
+input[type="submit"]{
+	background: #FF8800;
+	border: 0;
+	padding: 5px;
+	margin-top: 4px;
+	color: #fff;
+}
+input[type="text"]{
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 5px;
+	color: #444;
+}
+input[type="password"]{
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 5px;
+	color: #444;
+}
+
+.title{
+	background: #009D51;
+	color: #D4ECDB;
+	padding: 15px;
+}
+
+.title a{
+	color: #D8F1F3;
+	text-decoration: none;
+}
+.title a:hover {
+	color: #efefef;
+}
+
+.section{
+	background: #fff;
+	padding: 15px;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.section a{
+	color: #666;
+	text-decoration: none;
+	padding-left: 4px;
+}
+
+.section a:hover{
+	color: #9C9C9C;
+}
+
+.nvgstr{
+	background: white;
+	padding: 4px;
+	text-align: center;
+	border-top: 1px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+}
+.nvgstr a{
+	color: #0F656B;
+	text-decoration: none;
+	padding: 5px 6px;
+	border: 1px solid #dfdfdf;
+	background: #fcfcfc;
+}
+.nvgstr a:hover{
+	color: #528B8B;
+}

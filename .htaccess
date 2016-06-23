@@ -1,0 +1,24 @@
+AddDefaultCharset UTF-8
+RewriteEngine On
+
+# Регистрация / Авторизация / Выход / Восстановление пароля
+RewriteRule ^reg/?$ modules/login/reg.php [L,QSA]
+RewriteRule ^auth/?$ modules/login/auth.php [L,QSA]
+RewriteRule ^exit/?$ modules/login/exit.php [L,QSA]
+
+# Пользователи / Поиск / Страница пользователя
+RewriteRule ^users/?$ modules/user/users.php [L,QSA]
+RewriteRule ^searh/?$ modules/user/searh.php [L,QSA]
+RewriteRule ^user/([0-9]*)/?$ modules/user/page.php?id=$1 [L,QSA]
+
+# Кабинет
+RewriteRule ^cab/?$ modules/user/cab/index.php [L,QSA]
+RewriteRule ^cab/settings/?$ modules/user/cab/settings/index.php [L,QSA]
+RewriteRule ^cab/settings/avatar/?$ modules/user/cab/settings/avatar.php [L,QSA]
+RewriteRule ^cab/settings/avatar/del/?$ modules/user/cab/settings/del_avatar.php [L,QSA]
+RewriteRule ^cab/settings/password/?$ modules/user/cab/settings/password.php [L,QSA]
+RewriteRule ^cab/settings/form/?$ modules/user/cab/settings/form.php [L,QSA]
+
+# Админ-панель
+RewriteRule ^admin/?$ modules/admin/index.php [L,QSA]
+RewriteRule ^admin/users/edit/([0-9]*)/?$ modules/admin/users/edit.php?id=$1 [L,QSA]
